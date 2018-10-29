@@ -1,0 +1,301 @@
+#menu_background {
+    background-image: url("titleside_stor.svg");
+    background-size: cover;
+    width: 80vw;
+    height: 53vw;
+    margin: auto;
+
+    position: absolute;
+    left: 13vw;
+    top: 0.7vw;
+    z-index: 5;
+    display: none;
+
+}
+
+#start {
+
+    background-image: url("run.svg");
+    background-size: cover;
+    width: 17vw;
+    height: 15vw;
+    margin: auto;
+
+    position: absolute;
+    left: 45vw;
+    top: 28vw;
+    z-index: 6;
+    display: none;
+
+}
+
+
+
+
+
+#game_background {
+    background-image: url("backbackground.svg");
+    background-size: cover;
+    width: 80vw;
+    height: 53vw;
+    margin: auto;
+
+    position: absolute;
+    left: 11vw;
+    top: 0.7vw;
+    z-index: 1;
+}
+
+#game_elements {
+    background-image: url("stor-left.svg");
+    background-repeat: no-repeat;
+
+    width: 9vw;
+    height: 52.9vw;
+
+    position: absolute;
+    left: 13vw;
+    top: 0.7vw;
+    z-index: 2;
+
+}
+
+#højrebygning {
+    background-image: url("stor-right.svg");
+    background-repeat: no-repeat;
+
+    width: 9vw;
+    height: 52.9vw;
+
+    position: absolute;
+    left: 69vw;
+    z-index: 2;
+
+
+}
+
+
+
+/* ------------------- Karakter ---------- */
+
+#ninja {
+    background-image: url(ninja_sprinting.svg);
+    background-repeat: no-repeat;
+
+    width: 15vw;
+    height: 15vw;
+
+    position: absolute;
+    left: 8.2vw;
+    top: 32vw;
+    transform: rotate(90deg);
+    z-index: 4;
+    display: none;
+}
+
+#ninja_nigga {
+
+    background-image: url(ninja_hits.svg);
+    background-repeat: no-repeat;
+
+    width: 18vw;
+    height: 17vw;
+
+    position: absolute;
+    left: 6vw;
+    top: 29.8vw;
+    transform: rotate(90deg);
+    z-index: 4;
+
+}
+
+
+/* ------------------- Barrell ---------- */
+
+#barrell {
+    background-image: url(barrell.svg);
+    background-repeat: no-repeat;
+
+    width: 4vw;
+    height: 4vw;
+
+    position: absolute;
+    left: 15vw;
+    top: 20vw;
+    transform: rotate(49deg);
+    z-index: 4;
+}
+
+#barrell2 {
+    background-image: url(barrel_smadret.svg);
+    background-repeat: no-repeat;
+
+    width: 5vw;
+    height: 5vw;
+
+    position: absolute;
+    left: 15vw;
+    top: 27vw;
+    transform: rotate(70deg);
+    z-index: 4;
+}
+
+
+/* ------------------- Gameplay settings kanp ---------- */
+#game_ui {
+    background-image: url(settings.svg);
+    background-repeat: no-repeat;
+
+    width: 10vw;
+    height: 10vw;
+
+    position: absolute;
+    left: 25vw;
+    top: 1vw;
+    z-index: 3;
+}
+
+
+/* ------------------------- HIGHSCORE ------------------ */
+#points {
+    background-image: url(score.svg);
+    background-repeat: no-repeat;
+
+    width: 7vw;
+    height: 7vw;
+
+    position: absolute;
+    left: 47.5vw;
+    top: 2.5vw;
+    z-index: 4;
+}
+
+/* ---------------------------- LIV ------------------- */
+#energy {
+    background-image: url(liv.svg);
+    background-repeat: no-repeat;
+
+    width: 7vw;
+    height: 10vw;
+
+    position: absolute;
+    left: 34vw;
+    top: 0.1vw;
+    z-index: 4
+}
+
+#energy1 {
+    background-image: url(liv.svg);
+    background-repeat: no-repeat;
+
+    width: 7vw;
+    height: 10vw;
+
+    position: absolute;
+    left: 37vw;
+    top: 0.1vw;
+    z-index: 4
+}
+
+#energy2 {
+    background-image: url(liv.svg);
+    background-repeat: no-repeat;
+
+    width: 7vw;
+    height: 10vw;
+
+    position: absolute;
+    left: 40vw;
+    top: 0.1vw;
+    z-index: 4
+}
+
+
+
+
+/* ------------------------- settings ------------------- */
+
+#settings {
+
+    background-image: url("settings_stor.svg");
+    background-size: cover;
+    width: 77.2vw;
+    height: 53vw;
+    margin: auto;
+
+    position: absolute;
+    left: 13vw;
+    top: 0.7vw;
+    z-index: 6;
+    display: none;
+}
+
+/* ------------------------- gameover ------------------- */
+
+#gameover {
+
+    background-image: url("Game_over_stor.svg");
+    background-size: cover;
+    width: 77.2vw;
+    height: 53vw;
+    margin: auto;
+
+    position: absolute;
+    left: 13vw;
+    top: 0.7vw;
+    z-index: 7;
+    display: 7;
+    display: none;
+}
+
+
+/*
+.stol {
+    background-image: url("grafik/chair.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 16vw;
+    height: 24.6vw;
+    position: absolute;
+    top: 20vw;
+    left: 55vw;
+    z-index: 0;
+
+}
+
+.skaal {
+    background-image: url("grafik/skaal.png");
+    background-size: 100%;
+    width: 8vw;
+    height: 3.1vw;
+    position: absolute;
+    top: 22vw;
+    left: 56vw;
+    z-index: 3
+}
+
+.kvinde {
+    background-image: url("grafik/kvinde.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 16vw;
+    height: 37.8vw;
+    position: absolute;
+    top: 7vw;
+    left: 27vw;
+    z-index: 5;
+}
+
+.mand {
+    background-image: url("grafik/mand.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 16vw;
+    height: 38.6vw;
+    position: absolute;
+    top: 4vw;
+    left: 33vw;
+    z-index: 0;
+}
+
+*/
